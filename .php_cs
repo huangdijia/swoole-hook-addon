@@ -4,7 +4,7 @@ $header = <<<'EOF'
 This file is part of swoole-hook-addon.
 
 @link     https://github.com/huangdijia/swoole-hook-addon
-@document https://github.com/huangdijia/swoole-hook-addon/-/blob/main/README.md
+@document https://github.com/huangdijia/swoole-hook-addon/blob/main/README.md
 @contact  huangdijia@gmail.com
 EOF;
 

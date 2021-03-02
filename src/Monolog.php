@@ -5,7 +5,7 @@ declare(strict_types=1);
  * This file is part of swoole-hook-addon.
  *
  * @link     https://github.com/huangdijia/swoole-hook-addon
- * @document https://github.com/huangdijia/swoole-hook-addon/-/blob/main/README.md
+ * @document https://github.com/huangdijia/swoole-hook-addon/blob/main/README.md
  * @contact  huangdijia@gmail.com
  */
 namespace Monolog\Handler\SyslogUdp;

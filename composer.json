@@ -16,7 +16,12 @@
         "ext-swoole": ">=4.4"
     },
     "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "phpstan/phpstan": "^0.12",
         "swoole/ide-helper": "dev-master"
+    },
+    "config": {
+        "sort-packages": true
     },
     "scripts": {
         "cs-fix": "php-cs-fixer fix $1",
