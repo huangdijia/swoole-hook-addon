@@ -1,0 +1,25 @@
+{
+    "name": "huangdijia/swoole-hook-addon",
+    "description": "Make some programs compatible with Swoole HOOK.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Huangdijia",
+        "email": "huangdijia@gmail.com"
+    }],
+    "autoload": {
+        "files": [
+            "src/Monolog.php"
+        ]
+    },
+    "require": {
+        "ext-swoole": ">=4.4"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "dev-master"
+    },
+    "scripts": {
+        "cs-fix": "php-cs-fixer fix $1",
+        "analyse": "phpstan analyse --memory-limit 300M -l 0 -c phpstan.neon ./src"
+    }
+}
