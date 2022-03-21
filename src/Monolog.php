@@ -10,7 +10,7 @@ declare(strict_types=1);
  */
 namespace Monolog\Handler\SyslogUdp;
 
-if (! function_exists('is_resource')) {
+if (! function_exists('Monolog\Handler\SyslogUdp\is_resource')) {
     function is_resource($resource)
     {
         if (defined('SWOOLE_HOOK_SOCKETS') && (\Swoole\Runtime::getHookFlags() & SWOOLE_HOOK_SOCKETS)) {
